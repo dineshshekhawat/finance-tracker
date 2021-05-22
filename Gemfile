@@ -15,7 +15,8 @@ gem 'therubyracer'
 
 gem 'stock_quote'
 gem 'iex-ruby-client'
-gem 'yahoofinance'
+gem 'yahoo-finance'
+gem 'y_fi'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
