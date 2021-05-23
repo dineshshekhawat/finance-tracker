@@ -4,7 +4,14 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+//= require rails-ujs
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require_tree .
+
+// $(document).ready(function() {
+//     $('#stock-lookup-form').on('ajax:complete', function(event, data, status) {
+//         $('#results').html(data.responseText);
+//     });
+// });
