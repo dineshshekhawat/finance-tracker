@@ -15,7 +15,7 @@ class Stock < ApplicationRecord
             logger.info looked_up_stock.inspect
 
             # price = stip_commas(looked_up_stock.latest_price)
-            price = looked_up_stock.close
+            price = looked_up_stock.latest_price
 
             result = new(
                 name: looked_up_stock.company_name,
